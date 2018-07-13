@@ -1,0 +1,48 @@
+/*colors*/
+body {
+  margin: 0; }
+
+.gap {
+  width: 100%;
+  min-height: 2em; }
+
+.black-anchor {
+  color: black; }
+  .black-anchor:hover, .black-anchor:active, .black-anchor:visited {
+    color: black; }
+
+.top-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10em;
+  background-color: #c6eab7;
+  color: #5d6600; }
+  .top-div .tagline-p {
+    letter-spacing: 4px;
+    color: black; }
+
+.card-heading {
+  color: #5d6600;
+  margin-bottom: 1em; }
+
+.experience-title {
+  margin-bottom: 0;
+  letter-spacing: 2px; }
+
+.skills-ul {
+  list-style: none;
+  padding-left: 0; }
+  .skills-ul li {
+    padding-bottom: 0.3em; }
+
+.green-hr {
+  background-color: #5c651a;
+  height: 0.1em; }
+
+.footer {
+  min-height: 3em;
+  background-color: #c6eab7; }
+
+/*# sourceMappingURL=home.css.map */

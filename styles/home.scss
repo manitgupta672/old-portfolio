@@ -1,0 +1,65 @@
+/*colors*/
+$heading_color: rgb(93,102,0);
+$green_bg_color: rgb(198,234,183);
+$black: rgb(0,0,0);
+$green_dark_color: #5c651a;
+
+body{
+	margin: 0;
+}
+
+.gap{
+	width: 100%;
+	min-height: 2em;
+}
+
+.black-anchor {
+	color: $black;
+	&:hover, &:active, &:visited {
+		color: $black;	
+	}
+}
+
+.top-div{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 10em;
+	background-color: $green_bg_color;
+	color: $heading_color;
+
+	.tagline-p{
+		letter-spacing: 4px;
+		color: $black;
+	}
+}
+
+.card-heading{
+	color: $heading_color;
+	margin-bottom: 1em;
+}
+
+.experience-title{
+	margin-bottom: 0;
+	letter-spacing: 2px;
+}
+
+.skills-ul{
+	list-style: none;
+	padding-left: 0;
+
+	li{
+		padding-bottom: 0.3em;
+	}
+}
+
+.green-hr{
+	background-color: $green_dark_color;
+    height: 0.1em;	
+}
+
+.footer {
+	min-height: 3em;
+	background-color: $green_bg_color;
+}
